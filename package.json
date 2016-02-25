@@ -7,7 +7,7 @@
     "ejs",
     "transform"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "node": ">= 0.8"
   },
   "dependencies": {
-    "through": "~2.2.7",
-    "ejs": "~0.8.4"
+    "through": "~2.3.8",
+    "ejs": "~2.4.1"
   }
 }
