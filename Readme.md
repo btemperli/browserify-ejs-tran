@@ -2,6 +2,10 @@
 
 [browserify](https://github.com/substack/node-browserify) transform plugin for [EJS](https://github.com/visionmedia/ejs) templates
 
+> Fork from [jonathanstockton/browserify-ejs](https://github.com/jonathanstockton/browserify-ejs) and [unfold/browserify-ejs](https://github.com/unfold/browserify-ejs)
+> update ejs dependencies
+> rename and publish to npm
+
 ## Usage
 
 In module `foo.js` require your html template:
@@ -11,7 +15,7 @@ In module `foo.js` require your html template:
 
 Then browserify your module with the transform plugin:
 
-    $ browserify --transform browserify-ejs foo.js
+    $ browserify --transform browserify-ejs-tran foo.js
 
 ## Installation
 
